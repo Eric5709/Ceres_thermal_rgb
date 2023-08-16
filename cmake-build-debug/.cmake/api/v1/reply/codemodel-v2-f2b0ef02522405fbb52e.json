@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bd2cc657c0692c10978b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ceres_calib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ceres_calib_optimize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ceres_calib_optimize-Debug-0da4c6aee527a52a44c2.json",
+					"name" : "ceres_calib_optimize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ceres_calib_ransac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ceres_calib_ransac-Debug-133d2d0110e66897d951.json",
+					"name" : "ceres_calib_ransac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ceres_calib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ceres_calib_uninstall-Debug-c859122ab1d02645229f.json",
+					"name" : "ceres_calib_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-838575c45ea5fb9de113.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jsh/robot_ws/src/ceres_calib/cmake-build-debug",
+		"source" : "/home/jsh/robot_ws/src/ceres_calib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
